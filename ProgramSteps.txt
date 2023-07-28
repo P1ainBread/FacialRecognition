@@ -1,0 +1,10 @@
+Steps to run program:
+1) Open file explorer, locate "facial_recognition" folder
+2) Open file "headshots_picam.py
+3) On line 5, edit line of code with users name, then save.
+4) Return to file explorer and open up "dataset" folder, also under facial_recognition folder
+5) Add another folder with users name. This will be the area where the images are stored. 
+6) Return to headshots_picam.py, and run the code. Press SPACEBAR key to take images, provide multiple angles and proper lighting. Press either Q or ESC to close program. 
+
+7) Return to facial_recognition folder and run "train_model.py" to run code. This will train the AI for every image. 
+8) In the same folder, open "facial_req.py" and run it. This should start a livestream of the camera, and if done correctly, will place a yellow box with the users name around the face. 
